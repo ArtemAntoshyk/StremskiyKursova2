@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="259.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stremskiykursova.FilmPageController">
+   <children>
+      <Label fx:id="name" text="Label" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="year" text="Label" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="country" text="Label" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="film_maker" text="Label" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="actors" text="Label" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="yearBirthday" />
+   </children>
+</VBox>
